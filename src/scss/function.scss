@@ -1,0 +1,6 @@
+$desinWidth: 750;
+$baserem: 16;
+$baseFontSize: ($desinWidth/$baserem);
+@function rem($px) {
+    @return $px / $baseFontSize * 1rem;
+}
