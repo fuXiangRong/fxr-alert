@@ -3,6 +3,9 @@
     <img src="http://www.vuevuex.com/static/img/avatar.67aebcb.jpg">
   </a>
 </p>
+github地址：
+
+[https://github.com/fuXiangRong/fxr-alert](https://github.com/fuXiangRong/fxr-alert)
 
 ## 使用方法
 
