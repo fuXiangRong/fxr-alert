@@ -1,11 +1,9 @@
 <template>
   <div class="fxr-alert">
     <x-dialog
-    v-model="showValue"
-    :dialog-transition="dialogTransition"
-    :hideOnBlur="hideOnBlur"
-    @on-hide="$emit('on-hide')"
-    @on-show="$emit('on-show')">
+        v-model="showValue"
+        :dialog-transition="dialogTransition"
+        :hideOnBlur="hideOnBlur">
       <div class="weui-dialog__hd">
         <strong class="weui-dialog__title">{{title}}</strong>
       </div>
@@ -59,9 +57,6 @@ export default {
   watch: {
     value (val) {
       this.showValue = val
-    },
-    showValue (val) {
-      this.$emit('input', val)
     }
   }
 }

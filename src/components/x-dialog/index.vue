@@ -44,7 +44,6 @@ export default {
     },
     currentValue (val) {
       this.$emit(val ? 'on-show' : 'on-hide')
-      this.$emit('input', val)
     }
   },
   data () {
